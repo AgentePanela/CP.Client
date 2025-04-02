@@ -5,7 +5,7 @@ import { PrivateSchema } from './store/PrivateSchema';
 import { MemoryStore } from './store/MemoryStore';
 import { FileStore } from './store/FileStore';
 
-export const PLAY_URL = 'https://play.cpavalanche.net/';
+export const PLAY_URL = 'http://play.gaby.oirf.online/pt/';
 
 export type Store = {
   public: BaseStore<PublicSchema>;

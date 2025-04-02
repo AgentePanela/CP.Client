@@ -22,17 +22,18 @@
   "license": "MIT",
   "build": {
     "electronDist": "node_modules/electron/dist",
-    "appId": "com.clubpenguin.avalanche.client",
-    "productName": "CPAvalanche Client",
+    "appId": "com.clubpenguin.gaby.client",
+    "productName": "Club Gaby Client",
     "asar": "false",
     "win": {
       "publish": "github",
-      "artifactName": "CPAvalanche-Client-Setup-${version}.${ext}"
+      "artifactName": "CPGaby-Client-Setup-${version}.${ext}",
+      "target": "portable"
     },
     "mac": {
       "category": "game",
       "icon": "./assets/icon.icns",
-      "artifactName": "CPAvalanche-Client-${version}.${ext}"
+      "artifactName": "CPGaby-Client-${version}.${ext}"
     },
     "linux": {
       "category": "game",
@@ -42,13 +43,13 @@
         "AppImage"
       ],
       "icon": "./assets/icon.icns",
-      "maintainer": "renanrcp"
+      "maintainer": "Agentepanela"
     },
     "appImage": {
-      "synopsis": "Cliente do Club Penguin Avalanche",
-      "description": "Cliente que permite jogar CPAvalanche.",
+      "synopsis": "Cliente do Club Gaby",
+      "description": "Cliente que permite jogar Club Penguin Gaby.",
       "category": "Games",
-      "artifactName": "CPAvalanche-Client-${version}.${ext}"
+      "artifactName": "CPGaby-Client-${version}.${ext}"
     }
   },
   "devDependencies": {
